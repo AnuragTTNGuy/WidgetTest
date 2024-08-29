@@ -1,0 +1,68 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+jspm_packages/
+
+# Production build
+/build/
+
+# npm package files
+*.tgz
+
+# Mac system files
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor and OS-specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.swp
+
+# Coverage directory used by testing tools
+coverage/
+
+# Temporary files
+tmp/
+temp/
+
+# Lint and formatting
+.eslintcache
+.prettierignore
+
+# Parcel-bundler cache (if used)
+.cache/
+
+# Storybook files
+storybook-static/
+
+# Next.js
+.next/
+
+# Build output from Gatsby
+.public/
+
+# Other local build cache
+dist/
+
+# lock files (optional)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# TypeScript
+*.tsbuildinfo
